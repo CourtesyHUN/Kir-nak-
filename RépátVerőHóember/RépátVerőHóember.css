@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/lcd');
+
+body
+{
+    margin: 0;
+    background: rgb(168, 168, 168);
+}
+#content
+{
+    width: 900px;
+    height: 600px;
+    background: url('hatter.png');
+    background-size: cover;
+}
+
+#hoember
+{
+    height: 150px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    z-index: 10;
+}
+
+.repakep
+{
+    position: absolute;
+}
+
+#pontszam
+{
+    width: 100px;
+    padding: 15px;
+    border: 5px solid black;
+    border-color: black;
+    border-radius: 5px;
+    background: rgb(98, 124, 88);
+    color: black;
+    opacity: 0.8;
+    z-index: 11;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: right;
+    font-family: 'LCD';
+    font-size: 50px;
+}
+ 
+#elet
+{
+    width: 100px;
+    padding: 15px;
+    border: 5px solid black;
+    border-color: black;
+    border-radius: 5px;
+    background: rgb(98, 124, 88);
+    color: black;
+    opacity: 0.8;
+    z-index: 11;
+    position: absolute;
+    top: 10px;
+    left:750px;
+    text-align: right;
+    font-family: 'LCD';
+    font-size: 20px;
+}
+
+#szint
+{
+    width: 100px;
+    padding: 15px;
+    border: 5px solid black;
+    border-color: black;
+    border-radius: 5px;
+    background: rgb(98, 124, 88);
+    color: black;
+    opacity: 0.8;
+    z-index: 11;
+    position: absolute;
+    top: 10px;
+    left:360px;
+    text-align: right;
+    font-family: 'LCD';
+    font-size: 20px;
+}
