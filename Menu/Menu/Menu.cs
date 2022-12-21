@@ -9,12 +9,14 @@ namespace Menu
     class Menu
     {
         static int szam;
+        static bool fut = true;
         static void Main(string[] args)
         {
             string mp = "0";
             while (mp != "5")
             {
                 Console.Clear();
+                Console.CursorVisible = true;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("1. Adat bekérése");
                 Console.WriteLine("2. Karácsonyfa");
@@ -31,7 +33,18 @@ namespace Menu
                         beolvas();
                         break;
                     case "2":
-                        karacsonyfa(szam);
+                        { 
+                            Console.Clear();
+                            Console.CursorVisible = false;
+                            fut = true;
+                            while(fut)
+                            { 
+                                karacsonyfa(szam);
+                                Console.SetCursorPosition(0, 0);
+                            }
+                            Console.ReadKey();
+
+                        }
                         break;
                     case "3":
                         muveletek();
@@ -61,22 +74,31 @@ namespace Menu
         static void Color()
         {
             Random rnd = new Random();
-            int r = rnd.Next(4);
+            int r = rnd.Next(11);
             if (r == 0) Console.ForegroundColor = ConsoleColor.Red;
             if (r == 1) Console.ForegroundColor = ConsoleColor.Blue;
             if (r == 2) Console.ForegroundColor = ConsoleColor.Yellow;
             if (r == 3) Console.ForegroundColor = ConsoleColor.Cyan;
-
+            if (r == 4) Console.ForegroundColor = ConsoleColor.Magenta;
+            if (r == 5) Console.ForegroundColor = ConsoleColor.White;
+            if (r == 6) Console.ForegroundColor = ConsoleColor.Green;
+            if (r == 7) Console.ForegroundColor = ConsoleColor.Green;
+            if (r == 8) Console.ForegroundColor = ConsoleColor.Green;
+            if (r == 9) Console.ForegroundColor = ConsoleColor.Green;
+            if (r == 10) Console.ForegroundColor = ConsoleColor.Green;
         }
         static void karacsonyfa(int sor)
         {
-            Console.Clear();
-
             int osszcs = 2 * sor - 1;
             int szokoz;
             int csillag = 1;
             for (int i = 0; i < sor; i++)
             {
+                if (Console.KeyAvailable)
+                {
+                    fut = false;
+                    break;
+                }
                 szokoz = (osszcs - csillag)/2;
                 for (int j = 0; j < szokoz; j++)
                 {
@@ -110,7 +132,7 @@ namespace Menu
                 csillag += 2;
                 Console.WriteLine();
             }
-            Console.ReadKey();
+           
         }
         static void muveletek()
         {
