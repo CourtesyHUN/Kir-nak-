@@ -1,0 +1,7 @@
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\bin\Debug\Doga 0110.exe.config
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\bin\Debug\Doga 0110.exe
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\bin\Debug\Doga 0110.pdb
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\obj\Debug\Doga 0110.csproj.AssemblyReference.cache
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\obj\Debug\Doga 0110.csproj.CoreCompileInputs.cache
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\obj\Debug\Doga 0110.exe
+C:\Users\0tac-egyrob\source\repos\Doga 0110\Doga 0110\obj\Debug\Doga 0110.pdb
