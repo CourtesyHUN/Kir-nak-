@@ -11,23 +11,23 @@ namespace Doga_0110
         static void Main(string[] args)
         {
             //1. feladat
-            /*Random rnd = new Random();
+            Random rnd = new Random();
             int rnd1 = rnd.Next(1, 10001);
             int rnd2 = rnd.Next(1, 10001);
             Console.WriteLine(rnd1.ToString());
             Console.WriteLine(rnd2.ToString());
-            Console.ReadKey();*/
+            Console.ReadKey();
 
             //2. feladat
-            /*Console.Write("Kérem az angol mondatot: ");
+            Console.Write("Kérem az angol mondatot: ");
             string mondat = Console.ReadLine();
 
             Console.WriteLine(Szamol(mondat));
-            Console.ReadKey();*/
+            Console.ReadKey();
 
             //3. feladat
 
-            /*Console.Write("Szam1 : ");
+            Console.Write("Szam1 : ");
             int start = Convert.ToInt32(Console.ReadLine());
             Console.Write("Szam2 : ");
             int end = Convert.ToInt32(Console.ReadLine());
@@ -40,11 +40,11 @@ namespace Doga_0110
                 }
             }
             Console.WriteLine(ossz);
-            Console.ReadKey();*/
+            Console.ReadKey();
 
             //4. feladat
 
-            /*Console.WriteLine("Magasság: ");
+            Console.WriteLine("Magasság: ");
             int magas = int.Parse(Console.ReadLine());
 
             for (int sor = 1; sor <= magas; sor++)
@@ -61,11 +61,10 @@ namespace Doga_0110
 
                 Console.WriteLine();
             }
-            Console.ReadLine();*/
-
+            Console.ReadLine();
 
             //5. feladat
-            /*Console.WriteLine("Mondat: ");
+            Console.WriteLine("Mondat: ");
             string text = Console.ReadLine();
             char[] cArray = text.ToCharArray();
             string reverse = String.Empty;
@@ -74,7 +73,7 @@ namespace Doga_0110
                 reverse += cArray[i];
             }
             Console.WriteLine(reverse);
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             //6. feladat
 
