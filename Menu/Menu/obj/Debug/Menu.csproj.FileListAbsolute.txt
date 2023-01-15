@@ -5,3 +5,10 @@ C:\Users\0tac-egyrob\source\repos\Menu\Menu\obj\Debug\Menu.csproj.AssemblyRefere
 C:\Users\0tac-egyrob\source\repos\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
 C:\Users\0tac-egyrob\source\repos\Menu\Menu\obj\Debug\Menu.exe
 C:\Users\0tac-egyrob\source\repos\Menu\Menu\obj\Debug\Menu.pdb
+E:\Desktop\C#\Menu\Menu\bin\Debug\Menu.exe.config
+E:\Desktop\C#\Menu\Menu\bin\Debug\Menu.exe
+E:\Desktop\C#\Menu\Menu\bin\Debug\Menu.pdb
+E:\Desktop\C#\Menu\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+E:\Desktop\C#\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+E:\Desktop\C#\Menu\Menu\obj\Debug\Menu.exe
+E:\Desktop\C#\Menu\Menu\obj\Debug\Menu.pdb
