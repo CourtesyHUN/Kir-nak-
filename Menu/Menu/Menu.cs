@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Menu
+namespace Karifa_01._16
 {
-    class Menu
+    class Program
     {
         static int szam;
         static bool fut = true;
@@ -15,7 +15,9 @@ namespace Menu
             string mp = "0";
             while (mp != "5")
             {
+                
                 Console.Clear();
+                Console.SetWindowSize(120,30);
                 Console.CursorVisible = true;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("1. Adat bekérése");
@@ -101,6 +103,7 @@ namespace Menu
                         System.Threading.Thread.Sleep(2);
                     }
                     Console.WriteLine("*");
+                    Console.SetWindowSize(csillag, sor + torzs);
                 }
                 else if (sor >= 6 && sor <= 25)
                 {
@@ -110,6 +113,7 @@ namespace Menu
                         System.Threading.Thread.Sleep(2);
                     }
                     Console.WriteLine("***");
+                    Console.SetWindowSize(csillag, sor + torzs);
                 }
                 else
                 {
@@ -119,6 +123,13 @@ namespace Menu
                         System.Threading.Thread.Sleep(2);
                     }
                     Console.WriteLine("*****");
+                    for (int f = 0; f < torzs - 3; f++)
+                    {
+                        Console.Write(" ");
+                        System.Threading.Thread.Sleep(2);
+                    }
+                    Console.WriteLine("*****");
+                    Console.SetWindowSize(csillag, sor + torzs);
                 }
             };
 
