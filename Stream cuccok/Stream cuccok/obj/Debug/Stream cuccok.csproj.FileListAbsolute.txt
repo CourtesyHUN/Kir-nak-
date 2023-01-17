@@ -1,0 +1,7 @@
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\bin\Debug\Stream cuccok.exe.config
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\bin\Debug\Stream cuccok.exe
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\bin\Debug\Stream cuccok.pdb
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\obj\Debug\Stream cuccok.csproj.CoreCompileInputs.cache
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\obj\Debug\Stream cuccok.exe
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\obj\Debug\Stream cuccok.pdb
+C:\Users\0tac-egyrob\source\repos\Stream cuccok\Stream cuccok\obj\Debug\Stream cuccok.csproj.AssemblyReference.cache
